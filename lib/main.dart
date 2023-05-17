@@ -12,7 +12,7 @@ class HeroPOC extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hero POC',
       home: HeroWidget(),
     );
   }
@@ -130,8 +130,7 @@ extension BuildContextX on BuildContext {
       BuildContext,
       Animation<double>,
       Animation<double>,
-    )
-        pageBuilder,
+    ) pageBuilder,
     bool isOpaque = false,
   }) =>
       push<T>(
